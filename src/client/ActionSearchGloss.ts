@@ -63,8 +63,14 @@ export function ActionSearchGloss (): VNode {
 
   return html`
     <form onSubmit=${searchGloss} class="actionSearchGloss">
-      <label for=${GLOSS_ENTRY_FIELD_ID}>Search gloss: </label>
-      <input id=${GLOSS_ENTRY_FIELD_ID} name=${GLOSS_ENTRY_FIELD_ID} type="text" />
+      <label for=${GLOSS_ENTRY_FIELD_ID}>Search vocabulary: </label>
+      <input
+        id=${GLOSS_ENTRY_FIELD_ID}
+        name=${GLOSS_ENTRY_FIELD_ID}
+        type="text"
+        placeholder="Search by gloss or by BCI identifier"
+        size="25"
+      />
       <input type="submit" value=${SUBMIT_LABEL} />
       <input type="button" value=${CLEAR_LABEL} onClick=${clearResults} />
     </form>
