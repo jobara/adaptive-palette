@@ -95,6 +95,8 @@ Follow these steps to complete a one-time setup to enable RAG in the system:
 
 #### Troubleshooting
 
+##### CMake not installed
+
 In order to use RAG, `faiss-node` must be installed. `faiss-node` requires that [CMake](https://cmake.org/)
 be installed on the machine first. If this has not been done, install CMake and re-run the application install
 steps.
@@ -105,13 +107,31 @@ Using homebrew, you can install CMake with the following:
 brew install cmake
 ```
 
-If you encounter an `'omp.h' file not found` error, it likely means that you need to also install
+For other installation options please consult [CMake's download page](https://cmake.org/download/).
+
+##### 'omp.h' file not found
+
+If you encounter an `'omp.h' file not found` error, it likely means that you need to install
 [OpenMP](https://openmp.llvm.org/).
 
-Using homebrew, you can install CMake with the following:
+Using homebrew, you can install OpenMP with the following:
 
 ```bash
 brew install libomp
+```
+
+##### npm error ENOTEMPTY: directory not empty
+
+If you encounter an `npm error ENOTEMPTY: directory not empty` error, you can try removing the `node_modules`
+directory and rerunning the npm install.
+
+```bash
+
+# remove the node_modules directory
+rm -rf node_modules
+
+# re-run the npm install
+npm ci
 ```
 
 ### Lint
