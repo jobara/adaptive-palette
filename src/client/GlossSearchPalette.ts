@@ -17,6 +17,7 @@ import { MatchType, JsonPaletteType } from "./index.d";
 import { Palette } from "./Palette";
 
 export const GLOSS_MATCHES_PALETTE = "Gloss search";
+const MAXIMUM_COLUMNS = 5;
 
 type GlossSearchPalettePropsType = {
   matches: MatchType[],
@@ -41,8 +42,8 @@ export function makeMatchesPalette (glossMatches: MatchType[], searchTerm: strin
     "name": GLOSS_MATCHES_PALETTE,
     "cells": {}
   };
-  // Make the palette at most 5 columns wide.
-  const numCols = ( glossMatches.length <= 5 ? glossMatches.length : 5 );
+  // Make the palette at most MAXIMUM_COLUMNS wide.
+  const numCols = ( glossMatches.length < MAXIMUM_COLUMNS ? glossMatches.length + 1 : MAXIMUM_COLUMNS );
   let rowIndex = 0;
   let colIndex = 0;
 
