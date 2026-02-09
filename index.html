@@ -8,20 +8,34 @@
   </head>
   <body>
     <!--
-      Forms for entering SVG builder strings, and for searching the BCI AV.
+      Two main ares of the app.  This top area is for the UI that supports
+      1. Entering symbols using SVG builder strings
+      2. Searching the BCI AV for symbols, displaying the search results
+        as a palette
     -->
-    <details id="SvgEntryDalog" style="margin-left: 0.5em;">
-      <summary style="color:white">SVG Entry</summary>
-      <div id="svgBuilderStringEntry" style="display:inline-grid;"></div>
-    </details>
+
+    <!--
+      First main aria: Forms for entering SVG builder strings, and for searching
+      the BCI AV.
+    -->
+    <div>
+      <details id="SvgEntryDialog" style="margin-left: 0.5em;">
+        <summary>SVG Entry</summary>
+        <div id="svgBuilderStringEntry" style="display:inline-grid;"></div>
+      </details>
+    </div>
     <div id="SearchGlossDialog">
       <div id="searchGloss" style="display:inline-grid;"></div>
       <div id="searchGlossResults"></div>
     </div>
+
+    <!--
+      Second main ares:  This is for the Bliss symobl input and palette part
+      of the app
+    -->
     <div id="inputArea">
       <div id="input_palette"></div>
     </div>
-
     <div>
       <div id="indicators"></div>
     </div>

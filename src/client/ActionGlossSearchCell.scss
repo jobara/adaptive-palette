@@ -15,10 +15,8 @@
   text-align: center;
 
   button {
-    width: 100%;
-    border: none;
-    color: inherit;
-    background: none;
+    margin: 0.5rem;
+    background-color: white;
   }
 
   input, span {
@@ -28,5 +26,6 @@
 
   span {
     padding-top: 0.5rem;
+    color: black;
   }
 }

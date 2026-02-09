@@ -63,7 +63,7 @@ export function ActionSearchGloss (): VNode {
 
   return html`
     <form onSubmit=${searchGloss} class="actionSearchGloss">
-      <label for=${GLOSS_ENTRY_FIELD_ID} style="color: white;">Search gloss: </label>
+      <label for=${GLOSS_ENTRY_FIELD_ID}>Search gloss: </label>
       <input id=${GLOSS_ENTRY_FIELD_ID} name=${GLOSS_ENTRY_FIELD_ID} type="text" />
       <input type="submit" value=${SUBMIT_LABEL} />
       <input type="button" value=${CLEAR_LABEL} onClick=${clearResults} />
