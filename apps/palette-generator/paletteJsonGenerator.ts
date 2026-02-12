@@ -128,7 +128,7 @@ function convertSvgBuilderString (theString: string) {
  */
 
 /**
- * Helper function: Normalizes polymorphic return from decomposeBciAvId 
+ * Helper function: Normalizes polymorphic return from decomposeBciAvId
  * (value | array | undefined) into (array | undefined)
  */
 const normalizeToOptionalArray = (val: unknown): (string | number)[] | undefined => {
@@ -154,7 +154,7 @@ function findBciAvId(label: string, blissGlosses: BlissGloss[]): BciAvMatch[] {
 
   for (const gloss of blissGlosses) {
     const wordMatch = new RegExp("\\b" + label + "\\b");
-    
+
     if (label === gloss.description || wordMatch.test(gloss.description)) {
       const glossId = typeof gloss.id === "number" ? gloss.id : parseInt(gloss.id);
 
@@ -163,7 +163,7 @@ function findBciAvId(label: string, blissGlosses: BlissGloss[]): BciAvMatch[] {
       const originalAsArray = gloss.composition ?? [glossId];
 
       const fullComp = normalizeToOptionalArray(decomposeBciAvId(source));
-      
+
       // Check if the decomposition resulted in exactly what we started with
       const equalCompositions = areArraysEqual(fullComp, originalAsArray);
 
@@ -247,7 +247,7 @@ function findByBciAvId (bciAvId: string, blissGlosses: BlissGloss[]) {
  * }
  */
 
-export async function processPaletteLabels (paletteLabels: string[][], paletteName: string, startRow: number, startColumn: number, cellType: string) {
+export function processPaletteLabels (paletteLabels: string[][], paletteName: string, startRow: number, startColumn: number, cellType: string) {
   // Initialize palette to return, the matches, and the error list
   const finalJson: Palette = {
     "name": paletteName,

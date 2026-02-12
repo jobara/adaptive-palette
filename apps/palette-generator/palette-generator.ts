@@ -123,7 +123,7 @@ function handleGenerateDisplayButton () {
   if (glossesArray.length === 0) {
     paletteDisplay.innerText = "<p>Missing glosses ?</p>";
   }
-  const lookupResults = await processPaletteLabels(
+  const lookupResults = processPaletteLabels(
     glossesArray,
     paletteName.value,
     parseInt(rowStart.value),
