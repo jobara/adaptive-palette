@@ -14,6 +14,8 @@ import { fileURLToPath } from "url";
 import serveStatic from "serve-static";
 import { config } from "../../config/config.js";
 
+import { getMultiLangSymbolDict, getCompositionDict, expandBliss, translate } from "./blissEngine/blissEngine.js";
+
 import { FaissStore } from "@langchain/community/vectorstores/faiss";
 import vectorStoreHandler from "./vectorStoreHandler/index.js";
 
@@ -69,4 +71,26 @@ app.get("/health", (req, res) => {
   res.json({
     status: "healthy"
   });
+});
+
+app.post("/predict", (req, res) => {
+  res.json(getCompositionDict());
+});
+
+/*
+
+This is the composition of vampire: [23577, "/", 18209, "/", 15206]
+
+*/
+
+app.post("/translate", async (req, res) => {
+  // res.json(getMultiLangSymbolDict());
+
+  // console.log(req);
+  // res.json(req.body);
+
+  // res.json(expandBliss(req.body.bliss));
+
+  const response = await translate(req.body.bliss);
+  res.json(response);
 });
