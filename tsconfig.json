@@ -1,0 +1,24 @@
+{
+  "compilerOptions": {
+    "target": "ES2020",
+    "module": "ESNext",
+    "moduleResolution": "bundler",
+    "types": ["node"],
+    "noEmit": true,
+    "allowJs": true,
+    "checkJs": true,
+    "jsx": "react-jsx",
+    "jsxImportSource": "preact",
+		"resolveJsonModule": true,
+    "esModuleInterop": true,
+    "alwaysStrict": true
+  },
+  "include": [
+    "config/**.*",
+		"node_modules/vite/client.d.ts",
+		"src/**/*"
+	],
+  "types": [
+    "vitest/globals"
+  ]
+}
