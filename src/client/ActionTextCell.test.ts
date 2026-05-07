@@ -23,7 +23,7 @@ vi.mock("./GlobalUtils", async () => {
   return {
     ...GlobalUtils,
     speak: vi.fn(),
-  }
+  };
 });
 
 describe("ActionTextCell tests", (): void => {

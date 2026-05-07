@@ -9,7 +9,7 @@
  * https://github.com/inclusive-design/adaptive-palette/blob/main/LICENSE
  */
 
-import { render, screen, cleanup } from "@testing-library/preact"
+import { render, screen, cleanup } from "@testing-library/preact";
 import { html } from "htm/preact";
 
 import { adaptivePaletteGlobals, changeEncodingContents } from "./GlobalData";

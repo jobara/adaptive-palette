@@ -1,6 +1,6 @@
-import { defineConfig } from 'vitest/config'
-import { playwright } from '@vitest/browser-playwright'
-import preact from '@preact/preset-vite'
+import { defineConfig } from "vitest/config";
+import { playwright } from "@vitest/browser-playwright";
+import preact from "@preact/preset-vite";
 
 export default defineConfig({
   plugins: [preact()],
@@ -25,9 +25,9 @@ export default defineConfig({
             provider: playwright(),
             // https://vitest.dev/config/browser/playwright
             instances: [
-              { browser: 'chromium' },
-              { browser: 'firefox' },
-              { browser: 'webkit' },
+              { browser: "chromium" },
+              { browser: "firefox" },
+              { browser: "webkit" },
             ],
           },
         }

@@ -88,7 +88,7 @@ describe("Palette component", (): void => {
     expect(paletteElement).toBeValid();
 
     // There should be 6 columns in the grid and NUM_CELLS children.
-    expect(paletteElement.style['grid-template-columns']).toBe("repeat(5, 1fr)");
+    expect(paletteElement.style["grid-template-columns"]).toBe("repeat(5, 1fr)");
     expect(paletteElement.childNodes.length).toBe(NUM_CELLS);
   });
 });
