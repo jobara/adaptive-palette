@@ -15,9 +15,9 @@
     "lint": "run-p lint:*",
     "lint:js": "eslint .",
     "lint:markdown": "markdownlint-cli2 \"./**/*.md\" \"#node_modules\" \"#dist\"",
-    "test": "run-s test:*",
-    "test:server": "vitest server",
-    "test:client": "vitest client --config=vitest.browser.config.ts --browser.headless"
+    "test": "vitest",
+    "test:client": "vitest --project client",
+    "test:server": "vitest --project server"
   },
   "dependencies": {
     "@huggingface/transformers": "^3.8.1",
