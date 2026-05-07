@@ -9,15 +9,14 @@
  * https://github.com/inclusive-design/adaptive-palette/blob/main/LICENSE
  */
 
-import { render, screen, cleanup } from "@testing-library/preact";
-import "@testing-library/jest-dom";
+import { render, screen, cleanup } from "@testing-library/preact"
 import { html } from "htm/preact";
 
 import { adaptivePaletteGlobals, changeEncodingContents } from "./GlobalData";
 
 import {
-  CommandTelegraphicCompletions, 
-  TELEGRAPHIC_BUTTON_LABEL, 
+  CommandTelegraphicCompletions,
+  TELEGRAPHIC_BUTTON_LABEL,
   CANCEL_BUTTON_LABEL,
   NO_MODELS_AVAILABLE
 } from "./CommandTelegraphicCompletions";
@@ -49,7 +48,7 @@ describe("CommandTelegraphicCompletions component", () => {
 
   test("Render the dialog, no LLMs available", async () => {
     render(html`<${CommandTelegraphicCompletions} stream=${false} />`);
-    
+
     const triggerButton = await screen.findByRole("button", { name: TELEGRAPHIC_BUTTON_LABEL });
     expect(triggerButton).toBeDisabled();
 
@@ -57,7 +56,7 @@ describe("CommandTelegraphicCompletions component", () => {
     expect(cancelButton).toBeDisabled();
     const llmSelect = screen.getByRole("combobox", { name: /llm/i }) as HTMLSelectElement;
     expect(llmSelect.value).toBe(NO_MODELS_AVAILABLE);
-    
+
     const llmOptions = screen.getAllByRole("option") as HTMLOptionElement[];
     expect(llmOptions).toHaveLength(1);
     expect(llmOptions[0].value).toBe(NO_MODELS_AVAILABLE);
@@ -70,13 +69,13 @@ describe("CommandTelegraphicCompletions component", () => {
     expect(triggerButton).toBeDisabled(); // Disabled because payloads.length === 0
 
     const cancelButton = await screen.findByRole("button", { name: CANCEL_BUTTON_LABEL });
-    expect(cancelButton).toBeEnabled(); 
+    expect(cancelButton).toBeEnabled();
 
     const llmSelect = screen.getByRole("combobox", { name: /llm/i }) as HTMLSelectElement;
-    expect(llmSelect.value).toBe(LLM_NAMES[0]);    
+    expect(llmSelect.value).toBe(LLM_NAMES[0]);
     const llmOptions = screen.getAllByRole("option") as HTMLOptionElement[];
     expect(llmOptions).toHaveLength(3);
-    
+
     const optionValues = llmOptions.map(opt => opt.value);
     expect(optionValues).toEqual(LLM_NAMES);
   });
@@ -87,7 +86,7 @@ describe("CommandTelegraphicCompletions component", () => {
     changeEncodingContents.value = INPUT_CONTENTS;
 
     render(html`<${CommandTelegraphicCompletions} stream=${false} />`);
-    
+
     const triggerButton = await screen.findByRole("button", { name: TELEGRAPHIC_BUTTON_LABEL });
     expect(triggerButton).toBeEnabled();
 
@@ -96,7 +95,7 @@ describe("CommandTelegraphicCompletions component", () => {
 
     const llmSelect = screen.getByRole("combobox", { name: /llm/i }) as HTMLSelectElement;
     expect(llmSelect.value).toBe(LLM_NAMES[0]);
-    
+
     const llmOptions = screen.getAllByRole("option") as HTMLOptionElement[];
     expect(llmOptions).toHaveLength(3);
   });

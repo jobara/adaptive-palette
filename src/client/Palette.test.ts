@@ -10,7 +10,6 @@
  */
 
 import { render, screen } from "@testing-library/preact";
-import "@testing-library/jest-dom";
 import { html } from "htm/preact";
 
 import { initAdaptivePaletteGlobals } from "./GlobalData";
@@ -84,11 +83,12 @@ describe("Palette component", (): void => {
     if (!paletteElement) {
       throw new Error("Palette element with class 'paletteContainer' not found in the DOM");
     }
+
     expect(paletteElement).toBeVisible();
     expect(paletteElement).toBeValid();
 
     // There should be 6 columns in the grid and NUM_CELLS children.
-    expect(paletteElement).toHaveStyle("grid-template-columns: repeat(5, 1fr);");
+    expect(paletteElement.style['grid-template-columns']).toBe("repeat(5, 1fr)");
     expect(paletteElement.childNodes.length).toBe(NUM_CELLS);
   });
 });
