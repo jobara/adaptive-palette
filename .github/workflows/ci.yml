@@ -28,6 +28,8 @@ jobs:
           npm --version
       - name: NPM install (ci)
         run: npm ci
+      - name: Install Playwright Browsers
+        run: npx playwright install --with-deps
       - name: Lint
         run: npm run lint
       - name: Test
