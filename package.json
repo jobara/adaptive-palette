@@ -17,7 +17,7 @@
     "lint:markdown": "markdownlint-cli2 \"./**/*.md\" \"#node_modules\" \"#dist\"",
     "test": "run-s test:*",
     "test:server": "vitest server",
-    "test:browser": "vitest client --config=vitest.browser.config.ts --browser.headless"
+    "test:client": "vitest client --config=vitest.browser.config.ts --browser.headless"
   },
   "dependencies": {
     "@huggingface/transformers": "^3.8.1",

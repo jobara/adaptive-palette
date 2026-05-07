@@ -34,7 +34,7 @@ describe("Test vectorStoreHandler", () => {
     // See https://github.com/microsoft/onnxruntime/issues/16622#issuecomment-1626413333
     const originalImplementation = Array.isArray;
 
-    Array.isArray = jest.fn((type: unknown): boolean => {
+    Array.isArray = vi.fn((type: unknown): boolean => {
       if (type && type.constructor && (type.constructor.name === "Float32Array" || type.constructor.name === "BigInt64Array")) {
         return true;
       }

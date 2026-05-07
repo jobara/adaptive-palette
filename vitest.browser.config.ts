@@ -5,6 +5,7 @@ import preact from '@preact/preset-vite'
 export default defineConfig({
   plugins: [preact()],
   test: {
+    include: ["./src/**/*.{test,spec}.?(c|m)[jt]s?(x)"],
     globals: true,
     browser: {
       enabled: true,
