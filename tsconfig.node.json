@@ -2,7 +2,7 @@
   "compilerOptions": {
     "target": "ES2022",
     "module": "ESNext",
-    "types": ["jest", "node"],
+    "types": ["node"],
     "moduleResolution": "bundler",
     "allowJs": true,
     "checkJs": true,
@@ -10,10 +10,14 @@
     "esModuleInterop": true,
     "alwaysStrict": true,
     "skipLibCheck": true,
-    "outDir": "./dist/server"
+    "outDir": "./dist/server",
+    "types": [
+      "vitest/globals"
+    ]
   },
   "include": [
     "config/**/*",
+    "node_modules/vite/client.d.ts",
     "src/server/**/*"
   ]
 }
