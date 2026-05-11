@@ -38,7 +38,6 @@
     "serve-static": "^2.2.1"
   },
   "devDependencies": {
-    "@babel/preset-env": "^7.25.4",
     "@eslint/eslintrc": "^3.1.0",
     "@eslint/js": "^10.0.1",
     "@preact/preset-vite": "^2.9.0",
