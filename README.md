@@ -27,7 +27,11 @@ From the root of the cloned project, enter the following in your command line
 to install dependencies:
 
 ```bash
+# Install project dependencies
 npm ci
+
+# Install Playwright browsers for testing. This should only need to be done once.
+npx playwright install
 ```
 
 ## Development
@@ -147,8 +151,27 @@ npm run lint
 To run tests, run:
 
 ```bash
+# Run all tests
 npm test
+
+# Run only client tests
+npm run test:client
+
+#Run only server tests
+npm run test:server
 ```
+
+Browser tests are run in headless mode; however audio may still be played.
+
+For a complete list CLI flags that can be passed to the tests see Vitest's
+[Command Line Interface](https://vitest.dev/guide/cli.html) docs.
+
+_**NOTE:** The browser tests make use of Playwright to test real browsers. If you haven't already, you
+may need to run `npx playwright install` to install browsers. (see: [Browsers](https://playwright.dev/docs/browsers))_
+
+_**NOTE:** By default, outside of CI, tests are run in watch mode. After running the tests they will watch for changes
+to files and re-run the tests as needed. if you prefer to not enable watch mode you can use `-- --run` flag.
+(e.g. `npm test -- --run`)_
 
 ## Demonstrations
 
