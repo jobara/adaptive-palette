@@ -13,9 +13,5 @@ export default defineConfig({
     sourcemap: true,
     target: "esnext",
     outDir: "dist/client"
-  },
-  test: {
-    globals: true,
-    include: ["./src/**/*.{test,spec}.?(c|m)[jt]s?(x)"],
   }
 });
