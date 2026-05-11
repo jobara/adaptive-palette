@@ -30,8 +30,7 @@ describe("ollamaApi unit tests", (): void => {
 
   // Clear mocks before each test so they don't interfere with one another
   beforeEach(() => {
-    vi.restoreAllMocks();
-    mockedOllama.list.mockRestore();
+    vi.clearAllMocks();
   });
 
   describe("getModelNames", () => {

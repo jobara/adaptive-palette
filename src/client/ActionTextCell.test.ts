@@ -40,7 +40,7 @@ describe("ActionTextCell tests", (): void => {
   const TEST_CELL_ID = "unique-test-uuid";
 
   beforeEach(() => {
-    vi.restoreAllMocks(); // Reset mocks between tests
+    vi.clearAllMocks(); // Reset mocks between tests
   });
 
   test("Renders correctly with expected attributes and styles", (): void => {
