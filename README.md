@@ -146,6 +146,14 @@ To lint the source code, run:
 npm run lint
 ```
 
+### Type Checking
+
+To type check the source code, run:
+
+```bash
+npm run typecheck
+```
+
 ### Run Tests
 
 To run tests, run:
@@ -206,4 +214,3 @@ command" and "Build output directory" settings:
 ## Utility Scripts
 
 - [Load a document into a vector databbase (`scripts/loadDocIntoVectorDb.js`)](./scripts/loadDocIntoVectorDb.js)
-- [One time script to generate the composition of Bliss-word based on the Blissary (`scripts/createAndRecordCompositions.ts`)](scripts/createAndRecordCompositions.ts)
