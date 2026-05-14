@@ -165,7 +165,7 @@ npm test
 # Run only client tests
 npm run test:client
 
-#Run only server tests
+# Run only server tests
 npm run test:server
 ```
 
