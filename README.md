@@ -169,13 +169,16 @@ npm run test:client
 npm run test:server
 ```
 
-Browser tests are run in headless mode; however audio may still be played.
+You can pass in arguments to the tests runner by placing them after a `--`. For example,
+if you want to only run a single test you could call `npm test -- {test file name}`.
 
 For a complete list CLI flags that can be passed to the tests see Vitest's
 [Command Line Interface](https://vitest.dev/guide/cli.html) docs.
 
 _**NOTE:** The browser tests make use of Playwright to test real browsers. If you haven't already, you
 may need to run `npx playwright install` to install browsers. (see: [Browsers](https://playwright.dev/docs/browsers))_
+
+_**NOTE:** Browser tests are run in headless mode; however audio may still be played._
 
 _**NOTE:** Tests are run with watch mode disabled. If you prefer to enable watch mode you can use `-- --watch` flag.
 (e.g. `npm test -- --watch`)_

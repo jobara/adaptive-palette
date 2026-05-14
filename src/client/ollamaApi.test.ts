@@ -9,6 +9,7 @@
  * https://github.com/inclusive-design/adaptive-palette/blob/main/LICENSE
  */
 
+import { vi } from "vitest";
 import { getModelNames, queryChat } from "./ollamaApi";
 import ollama from "ollama/browser";
 

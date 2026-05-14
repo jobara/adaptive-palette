@@ -12,6 +12,7 @@
 import { render, screen } from "@testing-library/preact";
 import userEvent from "@testing-library/user-event";
 import { html } from "htm/preact";
+import { vi } from "vitest";
 
 import { NO_BCI_AV_ID } from "./SentenceCompletionsPalette";
 import { ActionTextCell } from "./ActionTextCell";
