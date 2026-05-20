@@ -1,10 +1,10 @@
-name: CI
+name: Test
 
 on: [push, pull_request]
 
 jobs:
 
-  build:
+  test:
     name: Test
     strategy:
       matrix:

@@ -1,10 +1,10 @@
-name: CI
+name: Analyze
 
 on: [push, pull_request]
 
 jobs:
 
-  build:
+  analyze:
     name: Lint and Typecheck
     strategy:
       matrix:
