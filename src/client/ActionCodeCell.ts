@@ -11,19 +11,19 @@
 
 import { VNode } from "preact";
 import { html } from "htm/preact";
-import { BlissSymbolInfoType, LayoutInfoType } from "./index.d";
+import { BlissSymbolInfoType, LayoutInfoType } from ".";
 import { BlissSymbol } from "./BlissSymbol";
 import { changeEncodingContents } from "./GlobalData";
 import { generateGridStyle, speak, insertWordAtCaret } from "./GlobalUtils";
 import { decomposeBciAvId } from "./SvgUtils";
-import "./ActionBmwCodeCell.scss";
+import "./ActionCodeCell.scss";
 
-type ActionBmwCodeCellPropsType = {
+type ActionCodeCellPropsType = {
   id: string,
   options: BlissSymbolInfoType & LayoutInfoType
 };
 
-export function ActionBmwCodeCell (props: ActionBmwCodeCellPropsType): VNode {
+export function ActionCodeCell (props: ActionCodeCellPropsType): VNode {
   const {
     columnStart, columnSpan, rowStart, rowSpan, bciAvId, label
   } = props.options;
@@ -46,7 +46,7 @@ export function ActionBmwCodeCell (props: ActionBmwCodeCellPropsType): VNode {
   };
 
   return html`
-    <button id="${props.id}" class="actionBmwCodeCell" style="${gridStyles}" onClick=${cellClicked}>
+    <button id="${props.id}" class="ActionCodeCell" style="${gridStyles}" onClick=${cellClicked}>
       <${BlissSymbol}
         bciAvId=${bciAvId}
         label=${label}

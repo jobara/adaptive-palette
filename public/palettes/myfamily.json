@@ -2,7 +2,7 @@
   "name": "My Family Palette",
   "cells": {
     "aunt-30a32c78-56fe-4622-9fba-0416b68d72fc": {
-      "type": "ActionBmwCodeCell",
+      "type": "ActionCodeCell",
         "options": {
           "label": "Aunt",
           "bciAvId": 12596,
@@ -13,7 +13,7 @@
         }
     },
     "mother-30a32c78-56fe-4622-9fba-0416b68d72fc": {
-      "type": "ActionBmwCodeCell",
+      "type": "ActionCodeCell",
         "options": {
           "label": "Mother",
           "bciAvId": 15662,
@@ -24,7 +24,7 @@
         }
     },
     "cousinF-30a32c78-56fe-4622-9fba-0416b68d72fc": {
-      "type": "ActionBmwCodeCell",
+      "type": "ActionCodeCell",
         "options": {
           "label": "Cousin",
           "bciAvId": 25280,
@@ -35,7 +35,7 @@
         }
     },
     "sister-30a32c78-56fe-4622-9fba-0416b68d72fc": {
-      "type": "ActionBmwCodeCell",
+      "type": "ActionCodeCell",
         "options": {
           "label": "Sister",
           "bciAvId":  16994 ,
@@ -46,7 +46,7 @@
         }
     },
     "me-30a32c78-56fe-4622-9fba-0416b68d72fc": {
-      "type": "ActionBmwCodeCell",
+      "type": "ActionCodeCell",
         "options": {
           "label": "Me",
           "bciAvId":  14916,
@@ -57,7 +57,7 @@
         }
     },
     "brother-30a32c78-56fe-4622-9fba-0416b68d72fc": {
-      "type": "ActionBmwCodeCell",
+      "type": "ActionCodeCell",
         "options": {
           "label": "Brother",
           "bciAvId":  12909,
@@ -68,7 +68,7 @@
         }
     },
     "cousinM-30a32c78-56fe-4622-9fba-0416b68d72fc": {
-      "type": "ActionBmwCodeCell",
+      "type": "ActionCodeCell",
         "options": {
           "label": "Cousin",
           "bciAvId":  25279,
@@ -79,7 +79,7 @@
         }
     },
     "father-30a32c78-56fe-4622-9fba-0416b68d72fc": {
-      "type": "ActionBmwCodeCell",
+      "type": "ActionCodeCell",
         "options": {
           "label": "Father",
           "bciAvId":  14157,
@@ -90,7 +90,7 @@
         }
     },
     "uncle-30a32c78-56fe-4622-9fba-0416b68d72fc": {
-      "type": "ActionBmwCodeCell",
+      "type": "ActionCodeCell",
         "options": {
           "label": "Uncle",
           "bciAvId":  17967,
@@ -101,7 +101,7 @@
         }
     },
     "bark-5c0e4a85-ccc0-4b43-8b89-dc54ac739543": {
-      "type": "ActionBmwCodeCell",
+      "type": "ActionCodeCell",
         "options": {
           "label": "Bark",
           "bciAvId":  [ 15666, ";", 8993, "/", 12380 ],

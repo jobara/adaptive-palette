@@ -2,7 +2,7 @@
   "name": "big_large",
   "cells": {
     "SVG:24875;8998:SVG-bf6e7461-b927-408e-8a02-f1d894f1acaf": {
-      "type": "ActionBmwCodeCell",
+      "type": "ActionCodeCell",
       "options": {
         "label": "big, large",
         "bciAvId": [
@@ -17,7 +17,7 @@
       }
     },
     "SVG:24917;8998:SVG-5972457b-2c91-4933-933e-caed01eb461c": {
-      "type": "ActionBmwCodeCell",
+      "type": "ActionCodeCell",
       "options": {
         "label": "little, small",
         "bciAvId": [
@@ -32,7 +32,7 @@
       }
     },
     "SVG:15193;8998:SVG-3df9e5c4-31f6-46e6-9f0e-378597388fd2": {
-      "type": "ActionBmwCodeCell",
+      "type": "ActionCodeCell",
       "options": {
         "label": "long",
         "bciAvId": [
@@ -47,7 +47,7 @@
       }
     },
     "SVG:24909;8998:SVG-8343df72-0353-48a2-9f10-d887fa178e46": {
-      "type": "ActionBmwCodeCell",
+      "type": "ActionCodeCell",
       "options": {
         "label": "high",
         "bciAvId": [
@@ -62,7 +62,7 @@
       }
     },
     "SVG:15214;8998:SVG-d6d7cc43-55fe-429c-b698-c5b4258ed640": {
-      "type": "ActionBmwCodeCell",
+      "type": "ActionCodeCell",
       "options": {
         "label": "linear",
         "bciAvId": [
@@ -77,7 +77,7 @@
       }
     },
     "SVG:18209;8998:SVG-1ef7e8de-9950-4fc1-9cc8-5c5e561b4841": {
-      "type": "ActionBmwCodeCell",
+      "type": "ActionCodeCell",
       "options": {
         "label": "wet",
         "bciAvId": [
@@ -92,7 +92,7 @@
       }
     },
     "SVG:14647/14133;8998/13867:SVG-e6b4b340-deed-4717-b48f-24a838d10884": {
-      "type": "ActionBmwCodeCell",
+      "type": "ActionCodeCell",
       "options": {
         "label": "dirty",
         "bciAvId": [
@@ -111,7 +111,7 @@
       }
     },
     "SVG:24852;8996:SVG-188e0056-5b9e-4d8b-931d-aba41d69bcf7": {
-      "type": "ActionBmwCodeCell",
+      "type": "ActionCodeCell",
       "options": {
         "label": "broken",
         "bciAvId": [
@@ -126,7 +126,7 @@
       }
     },
     "SVG:17506;8998/15474/14947/14947:SVG-fe106830-81b1-4d79-81b4-b18936b65a61": {
-      "type": "ActionBmwCodeCell",
+      "type": "ActionCodeCell",
       "options": {
         "label": "disgusting",
         "bciAvId": [
@@ -147,7 +147,7 @@
       }
     },
     "SVG:15484;8998/14381/17717/24875:SVG-2bbe41fd-8ead-49da-94bd-82652f7fac5c": {
-      "type": "ActionBmwCodeCell",
+      "type": "ActionCodeCell",
       "options": {
         "label": "expensive",
         "bciAvId": [
@@ -168,7 +168,7 @@
       }
     },
     "SVG:17506;8998/14183:SVG-a118a08a-ffc5-4a7e-b909-e4ef815d1ec1": {
-      "type": "ActionBmwCodeCell",
+      "type": "ActionCodeCell",
       "options": {
         "label": "hot",
         "bciAvId": [
@@ -185,7 +185,7 @@
       }
     },
     "SVG:14667;8998/25575:SVG-c2144bc9-b638-4907-9ae7-74097c51fefa": {
-      "type": "ActionBmwCodeCell",
+      "type": "ActionCodeCell",
       "options": {
         "label": "soft",
         "bciAvId": [
@@ -202,7 +202,7 @@
       }
     },
     "SVG:25560;8998:SVG-57ce3b3a-ab38-4c0e-bb7f-38c09f9d5c47": {
-      "type": "ActionBmwCodeCell",
+      "type": "ActionCodeCell",
       "options": {
         "label": "thick",
         "bciAvId": [
@@ -217,7 +217,7 @@
       }
     },
     "SVG:14133;8998/17717/17462:SVG-74d1f679-3286-4681-be79-a3cceec78b72": {
-      "type": "ActionBmwCodeCell",
+      "type": "ActionCodeCell",
       "options": {
         "label": "round,circular",
         "bciAvId": [
@@ -236,7 +236,7 @@
       }
     },
     "SVG:14133;8998/17717/13934:SVG-4d6d3e5d-067f-4f32-a876-efc9dce18e00": {
-      "type": "ActionBmwCodeCell",
+      "type": "ActionCodeCell",
       "options": {
         "label": "square",
         "bciAvId": [
@@ -255,7 +255,7 @@
       }
     },
     "SVG:24884;8998:SVG-5c5707bf-a0b9-4ae7-a1b5-a8dbc1336bb1": {
-      "type": "ActionBmwCodeCell",
+      "type": "ActionCodeCell",
       "options": {
         "label": "difficult",
         "bciAvId": [
@@ -270,7 +270,7 @@
       }
     },
     "SVG:14390;8998/14947:SVG-7478bee8-4b78-4d90-bfdf-1a47e2ba2b68": {
-      "type": "ActionBmwCodeCell",
+      "type": "ActionCodeCell",
       "options": {
         "label": "quick",
         "bciAvId": [
@@ -287,7 +287,7 @@
       }
     },
     "SVG:18221;8998/13869:SVG-e1ad97dd-f5e4-4c2d-a328-6442f8265760": {
-      "type": "ActionBmwCodeCell",
+      "type": "ActionCodeCell",
       "options": {
         "label": "heavy",
         "bciAvId": [
@@ -304,7 +304,7 @@
       }
     },
     "SVG:24897;8998:SVG-21a88a18-b0eb-4221-b78d-4d3a2c579920": {
-      "type": "ActionBmwCodeCell",
+      "type": "ActionCodeCell",
       "options": {
         "label": "full",
         "bciAvId": [
@@ -319,7 +319,7 @@
       }
     },
     "SVG:24941;8998:SVG-4d394b2f-5cac-4d06-a140-52dd5689ac6f": {
-      "type": "ActionBmwCodeCell",
+      "type": "ActionCodeCell",
       "options": {
         "label": "strong",
         "bciAvId": [

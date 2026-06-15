@@ -1,8 +1,8 @@
 {
   "name": "Input Area",
   "cells": {
-    "bmw-encoding-area": {
-      "type": "ContentBmwEncoding",
+    "content-encoding-area": {
+      "type": "ContentEncoding",
       "options": {
           "rowStart": 2,
           "rowSpan": 1,
@@ -19,7 +19,7 @@
           "rowSpan": 1,
           "columnStart": 11,
           "columnSpan": 1,
-          "ariaControls": "bmw-encoding-area"
+          "ariaControls": "content-encoding-area"
       }
     },
     "command-move-caret-forwards": {
@@ -31,7 +31,7 @@
           "rowSpan": 1,
           "columnStart": 12,
           "columnSpan": 1,
-          "ariaControls": "bmw-encoding-area"
+          "ariaControls": "content-encoding-area"
       }
     },
     "command-del-last-encoding": {
@@ -43,7 +43,7 @@
           "rowSpan": 1,
           "columnStart": 13,
           "columnSpan": 1,
-          "ariaControls": "bmw-encoding-area"
+          "ariaControls": "content-encoding-area"
       }
     },
     "command-clear-encoding": {
@@ -55,7 +55,7 @@
           "rowSpan": 1,
           "columnStart": 14,
           "columnSpan": 1,
-          "ariaControls": "bmw-encoding-area"
+          "ariaControls": "content-encoding-area"
       }
     }
   }

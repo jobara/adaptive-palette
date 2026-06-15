@@ -26,7 +26,7 @@ describe("CommandCursorBackward render tests", (): void => {
       "rowSpan": 1,
       "columnStart": 11,
       "columnSpan": 1,
-      "ariaControls": "bmw-encoding-area"
+      "ariaControls": "content-encoding-area"
     }
   };
 

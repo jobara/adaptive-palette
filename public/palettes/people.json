@@ -2,7 +2,7 @@
   "name": "People",
   "cells": {
     "couple-30a32c78-56fe-4622-9fba-0416b68d72fc": {
-      "type": "ActionBmwCodeCell",
+      "type": "ActionCodeCell",
         "options": {
           "label": "Couple",
           "bciAvId": 13426,
@@ -13,7 +13,7 @@
         }
     },
     "woman-30a32c78-56fe-4622-9fba-0416b68d72fc": {
-      "type": "ActionBmwCodeCell",
+      "type": "ActionCodeCell",
         "options": {
           "label": "Woman",
           "bciAvId": 18269,
@@ -24,7 +24,7 @@
         }
     },
     "assistant-30a32c78-56fe-4622-9fba-0416b68d72fc": {
-      "type": "ActionBmwCodeCell",
+      "type": "ActionCodeCell",
         "options": {
           "label": "Assistant",
           "bciAvId": 14706,
@@ -35,7 +35,7 @@
         }
     },
     "girl-30a32c78-56fe-4622-9fba-0416b68d72fc": {
-      "type": "ActionBmwCodeCell",
+      "type": "ActionCodeCell",
         "options": {
           "label": "Girl",
           "bciAvId":  14439 ,
@@ -46,7 +46,7 @@
         }
     },
     "person-30a32c78-56fe-4622-9fba-0416b68d72fc": {
-      "type": "ActionBmwCodeCell",
+      "type": "ActionCodeCell",
         "options": {
           "label": "Person",
           "bciAvId":  16161,
@@ -57,7 +57,7 @@
         }
     },
     "boy-30a32c78-56fe-4622-9fba-0416b68d72fc": {
-      "type": "ActionBmwCodeCell",
+      "type": "ActionCodeCell",
         "options": {
           "label": "Boy",
           "bciAvId":  12888,
@@ -68,7 +68,7 @@
         }
     },
     "crowd-30a32c78-56fe-4622-9fba-0416b68d72fc": {
-      "type": "ActionBmwCodeCell",
+      "type": "ActionCodeCell",
         "options": {
           "label": "Crowd",
           "bciAvId":  14646,
@@ -79,7 +79,7 @@
         }
     },
     "man-30a32c78-56fe-4622-9fba-0416b68d72fc": {
-      "type": "ActionBmwCodeCell",
+      "type": "ActionCodeCell",
         "options": {
           "label": "Man",
           "bciAvId":  15416,
@@ -90,7 +90,7 @@
         }
     },
     "police-30a32c78-56fe-4622-9fba-0416b68d72fc": {
-      "type": "ActionBmwCodeCell",
+      "type": "ActionCodeCell",
         "options": {
           "label": "Police",
           "bciAvId":  16217,

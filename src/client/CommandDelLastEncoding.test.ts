@@ -26,7 +26,7 @@ describe("CommandDelLastEncoding render tests", (): void => {
       "rowSpan": 1,
       "columnStart": 13,
       "columnSpan": 1,
-      "ariaControls": "content-encoding-area"
+      "ariaControls": "test-encoding-area"
     }
   };
 
