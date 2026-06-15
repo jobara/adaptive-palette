@@ -17,16 +17,11 @@ import {
 } from "./SvgUtils";
 
 describe("SvgUtils module", (): void => {
-
-  // The `singleBciAvId` is taken from the BMW json for "CONJ." The
-  // `bciAvIdArray` is also from the BMW json file using the codes for
-  // "VERB+EN".  The `expectedX` constants are based on a manual lookup of the
-  // blissary ids.
-  const singleBciAvId = 23409;                        // CONJ.
+  const singleBciAvId = 23409;                        // Attachment
   const expectedString = "B823";
 
-  const bciAvIdArray = [ 12335, "/", 8499 ];          // VERB+EN
-  const expectedConcatenation = "B106/B12";
+  const bciAvIdArray = [13639, "/", 15736 ];          // Today
+  const expectedConcatenation = "B258/B474";
 
   const invalidBciAvId = 1;
 

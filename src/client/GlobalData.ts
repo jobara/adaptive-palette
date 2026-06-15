@@ -31,7 +31,7 @@ import bliss_symbols from "../../public/data/bliss_symbol_explanations.json";
 /**
  * The map between cell types (string) and actual components that render corresponding cells
  */
-import { ActionBmwCodeCell } from "./ActionBmwCodeCell";
+import { ActionCodeCell } from "./ActionCodeCell";
 import { ActionBranchToPaletteCell } from "./ActionBranchToPaletteCell";
 import { ActionGlossSearchCell } from "./ActionGlossSearchCell";
 import { ActionIndicatorCell } from "./ActionIndicatorCell";
@@ -45,12 +45,12 @@ import { CommandCursorBackward } from "./CommandCursorBackward";
 import { CommandCursorForward } from "./CommandCursorForward";
 import { CommandDelLastEncoding } from "./CommandDelLastEncoding";
 import { CommandGoBackCell } from "./CommandGoBackCell";
-import { ContentBmwEncoding } from "./ContentBmwEncoding";
+import { ContentEncoding } from "./ContentEncoding";
 import { PaletteStore } from "./PaletteStore";
 import { NavigationStack } from "./NavigationStack";
 
 export const cellTypeRegistry = {
-  "ActionBmwCodeCell": ActionBmwCodeCell,
+  "ActionCodeCell": ActionCodeCell,
   "ActionBranchToPaletteCell": ActionBranchToPaletteCell,
   "ActionGlossSearchCell": ActionGlossSearchCell,
   "ActionIndicatorCell": ActionIndicatorCell,
@@ -64,7 +64,7 @@ export const cellTypeRegistry = {
   "CommandCursorForward": CommandCursorForward,
   "CommandDelLastEncoding": CommandDelLastEncoding,
   "CommandGoBackCell": CommandGoBackCell,
-  "ContentBmwEncoding": ContentBmwEncoding,
+  "ContentEncoding": ContentEncoding,
 };
 
 export const SYSTEM_PROMPTS_KEY = "Telegraphic System Prompts";
@@ -121,9 +121,9 @@ export async function initAdaptivePaletteGlobals (mainPaletteContainerId?:string
 }
 
 /**
- * Signal for updating the contents of the ContentBmwEncoding area.  The value
+ * Signal for updating the contents of the ContentEncoding area.  The value
  * of the signal is the current array of EncodingType objects to display in the
- * ContentBmwEncoding area and the position of the caret
+ * ContentEncoding area and the position of the caret
  */
 export const changeEncodingContents = signal<ContentSignalDataType>({
   payloads: [],

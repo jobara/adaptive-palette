@@ -22,8 +22,8 @@ describe("Palette integration test", () => {
   const testPalette = {
     "name": "Test Palette",
     "cells": {
-      "bmw-encoding-area": {
-        "type": "ContentBmwEncoding",
+      "content-encoding-area": {
+        "type": "ContentEncoding",
         "options": {
           "rowStart": 2,
           "rowSpan": 1,
@@ -54,7 +54,7 @@ describe("Palette integration test", () => {
         }
       },
       "firstCell": {
-        "type": "ActionBmwCodeCell",
+        "type": "ActionCodeCell",
         "options": {
           "label": "First Cell",
           "bciAvId": [
@@ -69,7 +69,7 @@ describe("Palette integration test", () => {
         }
       },
       "secondCell": {
-        "type": "ActionBmwCodeCell",
+        "type": "ActionCodeCell",
         "options": {
           "label": "Second Cell",
           "bciAvId": 23409,
@@ -100,7 +100,7 @@ describe("Palette integration test", () => {
           "rowSpan": 1,
           "columnStart": 12,
           "columnSpan": 1,
-          "ariaControls": "content-encoding-area"
+          "ariaControls": "test-encoding-area"
         }
       },
       "command-cursor-backwards": {
@@ -112,7 +112,7 @@ describe("Palette integration test", () => {
           "rowSpan": 1,
           "columnStart": 11,
           "columnSpan": 1,
-          "ariaControls": "bmw-encoding-area"
+          "ariaControls": "content-encoding-area"
         }
       }
     }
@@ -124,7 +124,7 @@ describe("Palette integration test", () => {
     "name": "People",
     "cells": {
       "woman": {
-        "type": "ActionBmwCodeCell",
+        "type": "ActionCodeCell",
         "options": {
           "label": "Woman",
           "bciAvId": 18269,
@@ -135,7 +135,7 @@ describe("Palette integration test", () => {
         }
       },
       "person": {
-        "type": "ActionBmwCodeCell",
+        "type": "ActionCodeCell",
         "options": {
           "label": "Person",
           "bciAvId":  16161,
@@ -146,7 +146,7 @@ describe("Palette integration test", () => {
         }
       },
       "man": {
-        "type": "ActionBmwCodeCell",
+        "type": "ActionCodeCell",
         "options": {
           "label": "Man",
           "bciAvId":  15416,
@@ -261,7 +261,7 @@ describe("Palette integration test", () => {
     adaptivePaletteGlobals.paletteStore.addPalette(testLayerOnePalette);
   });
 
-  test("Cell coordinations among bmw action cells, input area, delete and clear buttons", async() => {
+  test("Cell coordinations among action cells, input area, delete and clear buttons", async() => {
     // render() the palette and then wait until its first cell is available to
     // insure that the entire palette is in the DOM.
     render(html`<${Palette} json=${testPalette}/>`);

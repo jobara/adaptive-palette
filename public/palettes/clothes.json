@@ -2,7 +2,7 @@
   "name": "clothes",
   "cells": {
     "clothing-5bae4c70-8c3a-4435-b9ff-fe4cc91561c4": {
-      "type": "ActionBmwCodeCell",
+      "type": "ActionCodeCell",
       "options": {
         "label": "clothing",
         "bciAvId": 13366,
@@ -13,7 +13,7 @@
       }
     },
     "coat-8a19b78d-d8d1-449d-8a6a-9f92daee1b81": {
-      "type": "ActionBmwCodeCell",
+      "type": "ActionCodeCell",
       "options": {
         "label": "coat, sweater",
         "bciAvId": 13371,
@@ -24,7 +24,7 @@
       }
     },
     "underwear-5d9c70fe-9f90-4432-aba7-ff152e55fa28": {
-      "type": "ActionBmwCodeCell",
+      "type": "ActionCodeCell",
       "options": {
         "label": "underwear",
         "bciAvId": 17974,
@@ -35,7 +35,7 @@
       }
     },
     "16957-5ac2aeaf-5867-4dc0-a7f9-399ecf2de65e": {
-      "type": "ActionBmwCodeCell",
+      "type": "ActionCodeCell",
       "options": {
         "label": "shirt, blouse",
         "bciAvId": 16957,
@@ -46,7 +46,7 @@
       }
     },
     "dress-e183cae1-b6ae-40d4-8e74-00b0b3318a15": {
-      "type": "ActionBmwCodeCell",
+      "type": "ActionCodeCell",
       "options": {
         "label": "dress",
         "bciAvId": 13876,
@@ -57,7 +57,7 @@
       }
     },
     "pants-259c07c3-5558-40af-969b-87b6ae7dfb6d": {
-      "type": "ActionBmwCodeCell",
+      "type": "ActionCodeCell",
       "options": {
         "label": "pants",
         "bciAvId": 15961,
@@ -68,7 +68,7 @@
       }
     },
     "stocking-d05acf49-a877-4b11-a353-fa59e5bc4ea3": {
-      "type": "ActionBmwCodeCell",
+      "type": "ActionCodeCell",
       "options": {
         "label": "stockings",
         "bciAvId": 17264,
@@ -79,7 +79,7 @@
       }
     },
     "shoe-3440ced5-2b69-425c-bb72-e6cbaa4cac19": {
-      "type": "ActionBmwCodeCell",
+      "type": "ActionCodeCell",
       "options": {
         "label": "shoes",
         "bciAvId": 16959,
@@ -90,7 +90,7 @@
       }
     },
     "14682-5915ab90-9953-4020-97b1-50600fcbb7a7": {
-      "type": "ActionBmwCodeCell",
+      "type": "ActionCodeCell",
       "options": {
         "label": "hat, cap",
         "bciAvId": 14682,
@@ -101,7 +101,7 @@
       }
     },
     "helmet-7ec727f1-223c-43cd-b452-278c65d0bf36": {
-      "type": "ActionBmwCodeCell",
+      "type": "ActionCodeCell",
       "options": {
         "label": "helmet",
         "bciAvId": 21615,
@@ -112,7 +112,7 @@
       }
     },
     "14446-ffb13774-a561-4cbc-9803-d475c05fa905": {
-      "type": "ActionBmwCodeCell",
+      "type": "ActionCodeCell",
       "options": {
         "label": "gloves",
         "bciAvId": 14446,
@@ -123,7 +123,7 @@
       }
     },
     "pillow-de637704-c47e-416e-8709-507ce60eae67": {
-      "type": "ActionBmwCodeCell",
+      "type": "ActionCodeCell",
       "options": {
         "label": "pillow",
         "bciAvId": 16177,
@@ -134,7 +134,7 @@
       }
     },
     "blanket-1009a027-e488-4ed0-9d01-d0c2a3f0e9d3": {
-      "type": "ActionBmwCodeCell",
+      "type": "ActionCodeCell",
       "options": {
         "label": "blanket",
         "bciAvId": 12854,
@@ -145,7 +145,7 @@
       }
     },
     "napkin-2bb74661-7f6b-457a-8eb5-dffd2efd256d": {
-      "type": "ActionBmwCodeCell",
+      "type": "ActionCodeCell",
       "options": {
         "label": "napkin",
         "bciAvId": 15692,
@@ -156,7 +156,7 @@
       }
     },
     "bib-e94e3e06-f3e4-489f-8702-f1a63c90d37a": {
-      "type": "ActionBmwCodeCell",
+      "type": "ActionCodeCell",
       "options": {
         "label": "bib",
         "bciAvId": 12833,
@@ -167,7 +167,7 @@
       }
     },
     "money-1208321b-1caa-49de-abec-90dd0b57817a": {
-      "type": "ActionBmwCodeCell",
+      "type": "ActionCodeCell",
       "options": {
         "label": "money",
         "bciAvId": 15484,
@@ -178,7 +178,7 @@
       }
     },
     "clock-2d753ecf-4f31-4e42-9e90-7e8bd6a5e583": {
-      "type": "ActionBmwCodeCell",
+      "type": "ActionCodeCell",
       "options": {
         "label": "clock",
         "bciAvId": [ 17732, ";", 9009 ],
@@ -189,7 +189,7 @@
       }
     },
     "glasses-3a718fd3-0267-404c-8d16-6b4807924ca8": {
-      "type": "ActionBmwCodeCell",
+      "type": "ActionCodeCell",
       "options": {
         "label": "glasses",
         "bciAvId": 14443,
@@ -200,7 +200,7 @@
       }
     },
     "brush-52ae37c2-60f7-4d16-9c43-a1a48f41c80d": {
-      "type": "ActionBmwCodeCell",
+      "type": "ActionCodeCell",
       "options": {
         "label": "brush",
         "bciAvId": 12912,
@@ -211,7 +211,7 @@
       }
     },
     "jewellery-2be15542-a572-4b0c-9988-20865079d05c": {
-      "type": "ActionBmwCodeCell",
+      "type": "ActionCodeCell",
       "options": {
         "label": "jewellery",
         "bciAvId": 24826,

@@ -7,7 +7,7 @@ build the adaptive palette client side.
 
 `Palette.ts` constructs a palette based on a JSON file that contains a list
 of the cells in the palette. An example is found in
-[`src/keyboards/bmw_palette.json`](../src/keyboards/bmw_palette.json). The
+[`public/palettes/bliss_standard_chart.json`](../public/palettes/bliss_standard_chart.json). The
 `cells` object is the list of all of the cells. Each cell has a `type` key and
 an `options` key. The `type` value indicates which Preact component should be
 used to render this cell. The `options` contains information to be passed to the
